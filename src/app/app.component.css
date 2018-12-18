@@ -1,0 +1,11 @@
+.heading {
+    color: darkgreen;
+}
+a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.current {
+    color: green;
+}

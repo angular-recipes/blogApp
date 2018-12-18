@@ -3,10 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HomePageComponent } from './components/home-page/home-page.component';
+import { AuthorsPageComponent } from './components/authors-page/authors-page.component';
+import { NewPostPageComponent } from './components/new-post-page/new-post-page.component';
+import { PostDetailsPageComponent } from './components/post-details-page/post-details-page.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomePageComponent,
+    AuthorsPageComponent,
+    NewPostPageComponent,
+    PostDetailsPageComponent
   ],
   imports: [
     BrowserModule,

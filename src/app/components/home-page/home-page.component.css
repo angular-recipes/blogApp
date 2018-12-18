@@ -1,0 +1,8 @@
+.title {
+    color: darkgreen;
+    font-weight: bold;
+}
+.author {
+    font-style: italic;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,11 @@
+<div>Title:</div>
+<input type="text" #title>
+
+<div>Author:</div>
+<input type="text" #author>
+
+<div>Body:</div>
+<textarea #body></textarea>
+
+<br>
+<button (click)="save(title, author, body)">Save</button>
